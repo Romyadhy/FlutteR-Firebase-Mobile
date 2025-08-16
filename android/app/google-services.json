@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "760353982981",
+    "project_id": "oventes-9000d",
+    "storage_bucket": "oventes-9000d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:760353982981:android:6bde51edfc7fc98174aa6c",
+        "android_client_info": {
+          "package_name": "com.example.first_try_mob"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxN0VeinYBE2Ee4GNNnUu2kOVAqyGIk98"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
