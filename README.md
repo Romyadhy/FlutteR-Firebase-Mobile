@@ -1,16 +1,44 @@
-# first_try_mob
+# 🌡️ Flutter-Firebase Mobile
 
-A new Flutter project.
+A simple, project Flutter + Firebase app for real-time temperature and humidity monitoring.
 
-## Getting Started
+## 🚀 Overview
 
-This project is a starting point for a Flutter application.
+**first_try_mob** is a starter project that integrates Flutter with Firebase Realtime Database.  
+It displays live temperature and humidity data from your IoT device, visualized in a stylish UI.
 
-A few resources to get you started if this is your first Flutter project:
+## ✨ Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- 🔥 Real-time temperature & humidity monitoring
+- ☁️ Firebase Realtime Database integration
+- 💻 Runs on Android & Web
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠️ Getting Started
+
+1. **Clone this repo**
+2. **Install dependencies**
+   ```sh
+   flutter pub get
+   ```
+3. **Configure Firebase**
+   - Add your `google-services.json` (Android) or `firebase_options.dart` (Web)
+4. **Run the app**
+   ```sh
+   flutter run -d chrome   # For web
+   flutter run -d android  # For Android
+   ```
+
+Here's the detail instuction: https://www.notion.so/FLUTTER-FIREBASE-SETUP-2515aebc39d680bcb95ec899bf3be0fc?source=copy_link
+
+
+## 📚 Resources
+
+- [FlutterFire Docs](https://firebase.flutter.dev/)
+- [Flutter Codelabs](https://docs.flutter.dev/get-started/codelab)
+- [Firebase Realtime Database](https://firebase.google.com/docs/database)
+
+---
+
+Made with ❤️ using [Flutter](https://flutter.dev/) & [Firebase](https://firebase.google.com/)
+
+Stay code -- no enemies🫡
