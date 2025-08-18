@@ -165,7 +165,7 @@ class SensorGauge extends StatelessWidget {
         borderRadius: BorderRadius.circular(20),
         boxShadow: [
           BoxShadow(
-            color: Colors.black.withOpacity(0.2),
+            color: Colors.black.withValues(alpha: 0.2),
             spreadRadius: 2,
             blurRadius: 10,
             offset: const Offset(0, 5),
@@ -184,7 +184,7 @@ class SensorGauge extends StatelessWidget {
                 CircularProgressIndicator(
                   value: value / maxValue,
                   strokeWidth: 10,
-                  backgroundColor: Colors.white.withOpacity(0.1),
+                  backgroundColor: Colors.white.withValues(alpha: (0.1)),
                   valueColor: AlwaysStoppedAnimation<Color>(primaryColor),
                 ),
                 Center(
@@ -221,7 +221,7 @@ class SensorGauge extends StatelessWidget {
                     shadows: [
                       Shadow(
                         blurRadius: 10.0,
-                        color: primaryColor.withOpacity(0.5),
+                        color: primaryColor.withValues(alpha: 0.5),
                         offset: const Offset(0, 0),
                       ),
                     ],
