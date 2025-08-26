@@ -62,7 +62,7 @@ class _MonitoringPageState extends State<MonitoringPage> {
               const Padding(
                 padding: EdgeInsets.all(20.0),
                 child: Text(
-                  'Monitoring Suhu OVEN',
+                  'Monitoring Suhu OVEN-INI MAIN TESTES WOYYYYYY',
                   style: TextStyle(
                     fontSize: 24,
                     fontWeight: FontWeight.bold,
